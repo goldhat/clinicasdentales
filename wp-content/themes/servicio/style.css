@@ -10,3 +10,8 @@ Author URI: https://eatbuildplay.com/
 Theme URI: https://eatbuildplay.com/themes/servicio/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.um-directory .um-members-wrapper .um-members.um-members-grid .um-member .um-member-photo a img {
+  height: auto;
+}
