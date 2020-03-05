@@ -15,3 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .um-directory .um-members-wrapper .um-members.um-members-grid .um-member .um-member-photo a img {
   height: auto !important;
 }
+
+.um-directory .um-member-directory-header .um-member-directory-header-row.um-member-directory-search-row {
+  justify-content: center !important;
+}
