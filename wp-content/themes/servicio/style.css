@@ -26,3 +26,19 @@ body .um-directory .um-members-wrapper .um-members.um-members-grid .um-member .u
   color: #54C5CD;
   padding: 0 15px;
 }
+
+body .um-profile.um-viewing,
+body .um-profile.um-editing {
+  max-width: 100%;
+}
+
+body .um-meta-text {
+  font-size: 1.5em;
+}
+
+body .um-profile.um-viewing .um-field-label {
+  font-size: 1.8em;
+}
+body .um-field-value {
+  font-size: 1.8em;
+}
