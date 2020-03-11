@@ -42,3 +42,36 @@ body .um-profile.um-viewing .um-field-label {
 body .um-field-value {
   font-size: 1.8em;
 }
+
+body .um-directory .um-member-directory-header .um-member-directory-header-row .um-member-directory-search-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 60%;
+}
+
+.um-directory .um-member-directory-header .um-member-directory-header-row .um-member-directory-search-line .um-do-search {
+  background: #54C5CD;
+  cursor: pointer;
+}
+
+body .um-directory .um-member-directory-header .um-member-directory-header-row .um-member-directory-search-line label .um-search-line {
+  padding: 20px 15px 20px 15px !important;
+  min-height: 47px;
+}
+
+body .um-directory .um-members-wrapper .um-members.um-members-grid .um-member {
+  min-height: 360px;
+  background: #F5F5F5;
+  border: 0;
+}
+
+body .um-directory .um-members-wrapper .um-members .um-member .um-member-photo.radius-1 a img {
+  -moz-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+  border: solid 1px #E7E6E6;
+  padding: 15px;
+}
