@@ -75,3 +75,20 @@ body .um-directory .um-members-wrapper .um-members .um-member .um-member-photo.r
   border: solid 1px #E7E6E6;
   padding: 15px;
 }
+
+body .um-directory .um-member-directory-header .um-member-directory-header-row.um-member-directory-filters-bar {
+  justify-self: center;
+  align-self: center;
+  width: 80%;
+}
+
+body .um-directory .um-member-directory-header .um-member-directory-header-row .um-search {
+    margin: 0;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(max-content, auto);
+    -ms-grid-template-columns: repeat(2, 1fr);
+    -ms-grid-gap: 10px;
+    align-items: center;
+}
